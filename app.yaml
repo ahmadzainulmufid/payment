@@ -1,0 +1,6 @@
+runtime: php81
+
+handlers:
+  # Tangani semua permintaan lainnya
+  - url: /.*
+    script: index.php
